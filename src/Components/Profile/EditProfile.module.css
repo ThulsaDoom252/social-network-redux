@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+
+
+.edit-profile-container {
+    font-family: poppins;
+    text-align: center;
+    display: table;
+    height: 750px;
+    margin-top: 10px;
+    border-radius: 100px;
+    width: 75%;
+    background-color: #f5ae58;
+    margin-left: 110px;
+    box-shadow: inset 6px 6px 6px #c48b45, inset -6px -6px 6px #d19549;
+}
+
+
+
+
+.edit-profile-info-container {
+    width: 400px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.edit-profile-contacts-block {
+    padding-top: 4%;
+    margin: 0 auto;
+    display: flex;
+    width: 450px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edit-profile-header-1, .edit-profile-header-2 {
+    padding-top: 8%;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.edit-profile-button-block {
+    margin-top: 10%;
+}
+
+
+.edit-profile-inputs {
+    font-size: 14px;
+    background-color: #f5ae58;
+    padding: 10px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #c48b45, inset -6px -6px 6px #d19549;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+
+
+
+.edit-profile-button {
+    letter-spacing: 1px;
+    color: gray;
+    margin-top: 1%;
+    background: darkorange;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    border: solid gray;
+    transition: 0.5s;
+    font-size: 14px;
+}
+
+.edit-profile-button:active {
+    font-size: 16px;
+    color: black;
+    box-shadow: inset 6px 6px 6px yellow, inset -6px -6px 6px yellow;
+    border: none;
+}
+
+.edit-profile-button:disabled {
+    font-size: 14px;
+    border: none;
+}
+
+.edit-profile-button:hover {
+    font-size: 16px;
+    color: black;
+    box-shadow: inset 6px 6px 6px yellow, inset -6px -6px 6px yellow;
+    border: none;
+}
+
+.edit-profile-button:disabled:hover {
+    cursor: wait;
+    font-size: 14px;
+    color: gray;
+    box-shadow: none;
+}
+
+.edit-profile-button:disabled:active {
+    cursor: wait;
+    font-size: 14px;
+    color: gray;
+    box-shadow: none;
+    border: red;
+}
+
+.edit-profile-error {
+    color: red;
+}
+
+
+
+
+/*}*/
+
+/*.personalSign {*/
+/*    font-style: italic;*/
+/*    font-size: 20px;*/
+/*    font-family: poppins;*/
+/*}*/
+
+/*.personalErrorsBlock {*/
+/*    font-family: poppins;*/
+/*}*/
+
+/*!*.personalBlock {*!*/
+/*!*    float: left;*!*/
+/*!*    margin-top: 10px;*!*/
+/*!*    margin-left: 90px;*!*/
+/*!*}*!*/
+
+/*!*.jobBlock {*!*/
+/*!*    margin-right: 100px;*!*/
+/*!*    margin-top: 10px;*!*/
+/*!*    float: right;*!*/
+/*!*}*!*/
+
+/*.contactsBlock {*/
+/*    margin-top: 200px;*/
+/*}*/
+
+/*!*.cLeftBlock {*!*/
+/*!*    float: left;*!*/
+/*!*    margin-left: 150px;*!*/
+/*!*}*!*/
+
+/*!*.cRightBlock {*!*/
+/*!*    float: right;*!*/
+/*!*    margin-right: 150px;*!*/
+
+/*!*}*!*/
+
+/*.buttonBlock {*/
+/*    margin-top: 240px;*/
+/*}*/
+
+/*!*.contactsError {*!*/
+/*!*    right: 10px;*!*/
+/*!*}*!*/
+
+/*.inputs {*/
+/*    font-size: 14px;*/
+/*    background-color: #f5ae58;*/
+/*    padding: 10px;*/
+/*    height: 50px;*/
+/*    border-radius: 50px;*/
+/*    box-shadow: inset 6px 6px 6px #c48b45, inset -6px -6px 6px #d19549;*/
+/*    outline: none;*/
+/*    border: none;*/
+/*}*/
+
+/*.inputs:focus {*/
+/*    transition: 1s;*/
+/*    box-shadow: inset 6px 6px 6px #c48b45, inset -6px -6px 6px #f5e642;*/
+/*}*/
+
+/*.inputs::placeholder {*/
+/*    color: gray;*/
+/*}*/
+
+/*.cInputs {*/
+/*    height: 35px;*/
+/*}*/
+
+/*!*.contactsSign {*!*/
+/*!*    top: 205px;*!*/
+/*!*}*!*/
+
+/*.globalSuccess {*/
+/*    color: green;*/
+/*}*/
+
+
