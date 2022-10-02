@@ -1,0 +1,10 @@
+.logo {
+     margin-top: 140px;
+     margin-left: 300px;
+ }
+
+.logo:hover {
+    cursor: wait;
+}
+
+
